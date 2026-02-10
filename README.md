@@ -44,8 +44,8 @@ web_project_homeland/
 │   │   └──page.css
 │   ├── header/
 │   │   └── header.css
-│   ├── content/
-│   │   └── content.css
+│   ├── intro/
+│   │   └── intro.css
 │   └── footer/
 │   │   └── footer.css
 ├── images/
