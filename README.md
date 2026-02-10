@@ -24,6 +24,9 @@ Utilizado para estilização avançada e responsiva do site.
 **HTML5**
 Estrutura semântica de marcação
 
+**SEO**
+Foram adicionados descrição e conteúdo no head do HTML com o intuito de melhorar o tráfego orgânico do site e torná-lo mais visível nas pesquisas do Google.
+
 ## Estrutura do Projeto
 
 ```
