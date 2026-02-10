@@ -40,14 +40,10 @@ web_project_homeland/
 ├── pages/
 │   └── index.css
 ├── blocks/
-│   ├── page/
-│   │   └──page.css
-│   ├── header/
-│   │   └── header.css
-│   ├── intro/
-│   │   └── intro.css
-│   └── footer/
-│   │   └── footer.css
+│   ├── page.css
+│   ├── header.css
+│   ├── intro.css
+│   └── footer.css
 ├── images/
 ├── vendor/
 │   ├── normalize.css
