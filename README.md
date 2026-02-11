@@ -25,7 +25,7 @@ Utilizado para estilização avançada e responsiva do site.
 Estrutura semântica de marcação
 
 **SEO**
-Foram adicionados descrição e conteúdo no head do HTML com o intuito de melhorar o tráfego orgânico do site e torná-lo mais visível nas pesquisas do Google.
+Foram adicionados descrição e conteúdo no head do HTML com o intuito de melhorar o tráfego orgânico do site e torná-lo mais visível nos mecanismos de busca.
 
 ## Estrutura do Projeto
 
@@ -34,7 +34,7 @@ web_project_homeland/
 ├── index.html
 ├── .editorconfig
 ├── .gitignore
-├── .prittierignore
+├── .prettierignore
 ├── favicon.ico
 ├── README.md
 ├── pages/

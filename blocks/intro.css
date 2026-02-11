@@ -1,25 +1,25 @@
 .intro {
   margin: 0 auto;
-  width: 80%;
-  padding: 40px 0 0;
+  width: 77%;
+  padding: 24px 0 0;
 }
 
 .intro__title {
-  margin-bottom: 35px;
+  margin-bottom: 50px;
   font-weight: 900;
   font-size: 54px;
   line-height: 1.04;
 }
 
 .intro__text {
-  padding-right: 25%;
+  padding-right: 16%;
 }
 
 .intro__quote {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
-  margin-bottom: 35px;
+  margin-bottom: 32px;
   font-size: 24px;
   line-height: 1.41;
 }
@@ -34,10 +34,10 @@
   .intro {
     width: 93%;
     margin: 0 auto;
+    padding-top: 40px;
   }
 
   .intro__title {
-    font-weight: 900;
     font-size: 45px;
     line-height: 1.08;
   }
@@ -54,9 +54,9 @@
   }
 
   .intro__title {
-    font-weight: 900;
     font-size: 32px;
     line-height: 1.09;
+    margin-bottom: 40px;
   }
 
   .intro__text {
