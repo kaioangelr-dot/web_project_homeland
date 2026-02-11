@@ -47,7 +47,7 @@ web_project_homeland/
 ├── images/
 ├── vendor/
 │   ├── normalize.css
-│   ├── font.css
+│   ├── fonts.css
 │   ├── fonts/
 │   │   └──...
 ```
