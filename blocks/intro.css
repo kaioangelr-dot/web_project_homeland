@@ -51,6 +51,7 @@
   .intro {
     width: 93%;
     margin: 0 auto;
+    padding-top: 0;
   }
 
   .intro__title {
