@@ -1,0 +1,177 @@
+.places {
+  padding-top: 92px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.places__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 48px 40px;
+  width: 77%;
+  margin: 0 auto;
+}
+
+.places__title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.05;
+}
+
+.places__image {
+  grid-row-start: 2;
+  width: 100%;
+  cursor: url("../images/ponteiro-vertical.png"), pointer;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.places__image:hover {
+  opacity: 0.5;
+}
+
+.places__button {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1;
+  color: white;
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  cursor: url("../images/ponteiro-diagonal.png"), pointer;
+  grid-row-start: 3;
+  width: 77%;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.places__button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
+}
+
+.places__author {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.places__author-title {
+  color: #aaaaaa;
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.places__author-subtitle {
+  font-size: 18px;
+  line-height: 1.22;
+}
+
+.places__paragraph {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    padding-top: 85px;
+    gap: 72px;
+  }
+
+  .places__container {
+    width: 93%;
+  }
+
+  .places__container {
+    column-gap: 28px;
+  }
+
+  .places__title {
+    font-size: 42px;
+    line-height: 1.09;
+  }
+
+  .places__image {
+    cursor: auto;
+  }
+
+  .places__image:hover {
+    opacity: 1;
+  }
+
+  .places__button {
+    cursor: auto;
+    width: 100%;
+  }
+
+  .places__button:hover {
+    background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  }
+
+  .places__author-subtitle {
+    font-size: 18px;
+    line-height: 1.22;
+  }
+
+  .places__paragraph {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .places {
+    padding-top: 62px;
+    gap: 50px;
+  }
+
+  .places__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, auto);
+    row-gap: 30px;
+    width: 100%;
+    place-items: center;
+  }
+
+  .places__title {
+    font-size: 32px;
+    line-height: 1.09;
+    width: 90%;
+  }
+
+  .places__image {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  }
+
+  .places__button {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .places__author {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 90%;
+  }
+
+  .places__paragraph {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    width: 90%;
+  }
+}
