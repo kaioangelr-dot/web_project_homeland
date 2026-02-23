@@ -8,7 +8,6 @@
 .places__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, auto);
   gap: 48px 40px;
   width: 77%;
   margin: 0 auto;
@@ -138,7 +137,6 @@
 
   .places__container {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, auto);
     row-gap: 30px;
     width: 100%;
     place-items: center;
